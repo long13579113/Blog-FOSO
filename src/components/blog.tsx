@@ -74,11 +74,11 @@ export default function Blog({ setTab }: { setTab: (value: string) => void }) {
         <div className="col-span-3">
           <div className="my-4 font-bold text-3xl">Tất Cả Bài Viết</div>
           <div className="grid grid-cols-2 gap-4 bg-linear-to-r from-blue-800 to-blue-600 rounded-4xl overflow-hidden px-7 pt-7 text-white">
-            <div className="flex flex-col p-2 gap-4">
+            <div className="flex flex-col p-[5%] gap-4 justify-center max-w-[20vw]">
               <div className="text-3xl font-semibold">
                 Gia nhập cộng đồng FMRP - Kết nối, chia sẻ, cùng phát triển!
               </div>
-              <button className="flex gap-8 border-2 border-white rounded-full py-2 px-4 w-fit items-center">
+              <button className="flex gap-8 border-2 border-white rounded-full py-2 px-4 w-fit items-center text-nowrap overflow-hidden">
                 Tham gia ngay
                 <span>
                   <FiArrowUpRight />
